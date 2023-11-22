@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <form id="bmo-calculadora" action="#">
+
+    <div class="game-boy">
+        <div class="head">
+            Insira valores e selecione a operação logo após!
+
+            <div class="display">
+
+            <label for="valor1">Primeiro:</label>
+                <input type="number" id="valor1" required><br>
+
+                <label for="valor2">Segundo:</label>
+                    <input type="number" id="valor2" required>
+
+                    <p id="resultado"></p>
+            </div>
+
+        </div>
+
+        <div class="line">
+        </div>
+
+        <div class="ball">
+        </div>
+
+        <div class="div-mais">
+        </div>
+
+        <img id="btn-mais" src="img/btn-mais.svg" alt="Botão de Soma" onclick="operacao('adicao')">
+
+        <img id="btn-multiplicacao" src="img/btn-multiplicacao.svg" alt="Botão de Multiplicação" onclick="operacao('multiplicacao')">
+
+        <img id="btn-divisao" src="img/btn-divisao.svg" alt="Botão de Divisão" onclick="operacao('divisao')">
+
+        <img id="btn-menos" src="img/btn-menos.svg" alt="Botão de Subtração" onclick="operacao('subtracao')">
+
+        <div class="line-1"></div>
+        <div class="line-2"></div>
+            
+        </div>
+    </form> 
+
+    <script src="main.js"></script>
+</body>
+</html>

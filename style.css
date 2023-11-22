@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;600&family=Poppins:wght@200;600;800&display=swap');@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;600&family=Poppins:wght@200;600;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Pixelify Sans', sans-serif;
+  }
+
+  body {
+    background-image: url(img/bmo-background.png);
+    background-attachment: fixed;
+    background-position: center center;
+  }
+
+  .game-boy {
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid rgb(56,140,119);
+    border-radius: 25px;
+    background-color: rgb(75,153,133);
+  }
+
+  .head {
+    width: 325px;
+    height: 200px;
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid rgb(56,140,119);
+    border-radius: 15px;
+    background-color: rgb(167,199,181);
+    text-align: center;
+  }
+
+  .line{
+    width: 250px;
+    height: 20px;
+    background-color: rgb(9, 99, 76);
+    border-radius: 15px;
+    position: absolute;
+    top: 55%;
+    left: 10%;
+  }
+
+  .ball{
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    border: 5px solid rgb(3, 3, 209);
+    position: absolute;
+    top: 53%;
+    right: 10%;
+    border-radius: 50%;
+  }
+
+  #btn-mais{
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    top: 68%;
+    left: 15%;
+  }
+
+  #btn-multiplicacao{
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    top: 65%;
+    left: 55%;
+  }
+
+  #btn-divisao{
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 70%;
+    right: 15%;
+  }
+
+  #btn-menos{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 80%;
+    right: 20%;
+  }
+
+  .line-1{
+    width: 50px;
+    height: 15px;
+    background-color: rgb(5, 5, 133);
+    border-radius: 15px;
+    position: absolute;
+    top: 90%;
+    left: 10%;
+  }
+
+  .line-2{
+    width: 50px;
+    height: 15px;
+    background-color: rgb(5, 5, 133);
+    border-radius: 15px;
+    position: absolute;
+    top: 90%;
+    left: 25%;
+  }
+
+  .display{
+    position: relative;
+    top: 30%;
+    text-align: center;
+  }
+
+  input{
+    border-style: dashed;
+    background-color: transparent;
+    outline: none;
+  }
+
+  img{
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+
+  img:hover{
+    -webkit-filter: drop-shadow(10px 5px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(10px 5px 5px rgba(0,0,0,.5));
+  }
